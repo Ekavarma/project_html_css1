@@ -1,0 +1,335 @@
+
+ul{
+    list-style: none;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    gap: 450px;
+}
+
+
+.list{
+    display: flex;
+    gap: 35px;
+    color: white;
+}
+
+.header1{
+    background-color: red;
+
+    border-radius: 5px;
+}
+
+.banner1_1>input:focus{
+    border-bottom: 2px solid black;
+    outline: none;
+
+}
+.s1>div{
+    background-color:blue;width:50px; margin-left:110px;padding:10px;border-radius:50px
+}
+
+.s2>div{
+    background-color:blue;width:50px; margin-left:110px;padding:10px;border-radius:50px
+}
+.s3>div{
+    background-color:blue;width:50px; margin-left:110px;padding:10px;border-radius:50px
+}
+.s4>div{
+    background-color:blue;width:50px; margin-left:110px;padding:10px;border-radius:50px
+}
+.banner1_1{
+    background-color: white; border:1px solid white; display:inline; border-radius:20px; padding:6px 0px 6px 6px; width:120px;
+}
+.banner1_1>button{
+    background-color:red; color:white; border-radius:20px;border:none;padding:10px 30px 7px 30px;margin-left:5px;
+}
+.banner1>img{
+    position:absolute;
+    top:280px; 
+    left:190px;
+}
+
+header{
+    background-image: url("./images./banner-bg.jpg");
+    border-radius: 0 0 80px 80px;
+    width: 100%;
+    height: 700px;
+
+}
+
+.banner1{
+    padding-left: 100px;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+}
+
+.banner2{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding-top: 20px;
+    padding-right: 100px;
+
+}
+.banner2>span{
+    color:white;display:inline;position:absolute;top:150px; right:115px; background-color:lightskyblue;padding:10px 15px;border-radius:50px
+}
+.banner2>h3{
+    background-color:red;padding:20px 10px;display:inline;border-radius:80%; position:absolute ;right:340px; margin-top:330px; color:white;
+}
+
+.banner_bottom{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: -70px;
+    gap: 30px;
+
+
+
+
+
+
+
+
+}
+
+.s1,.s2,.s3,.s4{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: white;
+    text-align: center;
+    width: 300px;
+    height: 150px;
+    padding-top: 50px;
+    border-radius: 30px;
+    font-weight: bold;
+
+}
+
+.trending{
+    display: flex;flex-direction:column;gap:30px ;margin-top:100px;
+}
+
+.trending1{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.button1{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    width: 70px;
+    height: 40px;
+
+
+}
+
+.trending2_1{
+    background-color: rgba(183, 174, 174, 0.775);
+    width: 300px;
+    height:320px;
+    border-radius: 20px;
+
+
+}
+.trending2_1>img{
+    width:100%;border-radius: 20px ;
+}
+
+.trending2_2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -20px;
+}
+.trending2_2>i{
+    color:white;background-color:red;padding:10px;border-radius:20px;
+}
+.trending2_1>p{
+    margin-left:45px;
+}
+
+.trending2{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+}
+.trending2_3{
+    background-color:blue;display:inline-block;padding:10px;border-radius:10px;position:relative;top:-300px;left:230px;color:white;text-align: center;
+}
+.trending2_3>span{
+    display:block;font-size:25px;
+}
+.trending2_3>p{
+    display:inline;
+}
+
+.topgames{
+    display: flex;flex-direction:column;gap:30px ;margin-top:100px;
+}
+
+ 
+.topgames2{
+    display: flex;
+    gap:20px;
+    
+ }
+ .topgames2_1>input{
+    background-color:red;color:white;border-radius:20px;border:none;padding:10px;
+}
+.topgames2_1>img{
+    width:100%; border-radius: 20px;
+}
+.topgames2_1{
+    background-color: white;
+    width: 200px;
+    height: 280px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.topgames1{
+    display: flex;
+    justify-content: space-between;
+}
+.topgames{
+    background-color: gray;
+    padding:40px  100px 90px 110px ;
+    border-radius: 100px;
+    margin-top: 100px;
+}
+
+
+.categories{
+    margin-top:100px;
+}
+
+
+
+.categories2{
+    display: flex;
+    gap: 20px;
+    
+}
+
+.categories1{
+    text-align: center;
+}
+
+.categories2_2{
+    border-radius:20px;
+    background-color: blue;
+    width: 240px;
+    height: 270px;
+    
+    
+}
+.categories2_2>img{
+    border-radius:20px;
+    width:100%;
+}
+.categories2_2>p{
+    text-align: center;
+    padding:20px;
+    color:white;
+}
+
+.shop{
+    background-color: gray;
+    padding:20px 70px;
+    
+    
+    position: absolute;
+    left: 120px;
+    margin-top: 130px;
+    height: 350px;
+    width: 400px;
+    border-radius: 10px;
+}
+.shop>input{
+    background-color: red; color:white;padding:10px 15px;border:none;border-radius:20px;
+}
+
+.section_shop{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+.newsletter{
+    background-color: gray;
+    width: 350px;
+    height: 300px;
+    padding:20px 70px;
+    
+    
+    
+    border-radius: 10px;
+    position: absolute;
+    left: 900px;
+    margin-top: 180px;
+}
+
+.newsletter1>input:focus{
+    border-bottom: 2px solid black;
+    outline: none;
+}
+.newsletter1{
+    background-color: white; border:1px solid white; display:inline; border-radius:20px; padding:6px 0px 6px 6px;
+}
+.newsletter1>input{
+    border:none;width:100px;
+}
+.newsletter1>button{
+    background-color:red; color:white; border-radius:20px;border:none;padding:10px 30px 7px 30px;margin-left:5px;
+}
+.footer{
+    background-image: url("./images/footer-bg.jpg");
+    margin-top: 100px;
+    border-radius: 100px 100px 0 0;
+    width:100%;
+    height:90px;
+}
+.footer>p{
+    text-align: center;
+    padding-top: 10px;
+     color: white;
+    
+    
+    
+    
+}
